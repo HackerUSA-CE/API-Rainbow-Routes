@@ -21,6 +21,7 @@ app.get('/', function (req, res) {
     `)
 })
 
+
 // Color Page
 app.get('/:color', function (req, res) {
     let myColor = req.params.color
